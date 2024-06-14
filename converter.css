@@ -1,10 +1,16 @@
 #exampleInputEmail1{
     width: 500px;
+    margin-left: 500px;
     
 }
 
 #group{
     width: 500px;
+    margin-left: 500px;
+}
+
+#h2{
+    margin-left: 500px;
 }
 
 /*style of button*/
@@ -14,11 +20,17 @@
 
 #yapon{
     color: red;
+    
 }
 
 #list{
     color: yellow;
 }
 
+
+#euro{
+    color: gold;
+    margin-left: 570px;
+}
 
 

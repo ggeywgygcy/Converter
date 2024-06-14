@@ -1,4 +1,5 @@
 const dollBtn = document.getElementById('doll')
+const euroBtn = document.getElementById('euro')
 const chinBtn = document.getElementById('chin')
 const yaponBtn = document.getElementById('yapon')
 const tenBtn = document.getElementById('list')
@@ -9,6 +10,8 @@ const group = document.getElementById('group')
 dollBtn.onclick = function(res){
     res = val.value * 88,21
     group.textContent = res
+    // group.insertAdjacentHTML('beforeend', vivodGruppi(res))
+
 }    
 chinBtn.onclick = function(res){
     res = val.value * 12.04
@@ -22,6 +25,19 @@ tenBtn.onclick = function(res){
     res = val.value * 0.19525
     group.textContent = res
 }    
+euroBtn.onclick = function(res){
+    res = val.value * 94.83
+    group.textContent = res
+    // group.insertAdjacentHTML('beforeend', vivodGruppi(res))
+
+}    
+
+
+/*// function vivodGruppi(group){
+//     return `<ul class="list-group">
+//         <li id="group" class="list-group-item">${group}</li>
+//      </ul>`
+// }*/
 
 
 
@@ -42,14 +58,3 @@ tenBtn.onclick = function(res){
 
 
 
-
-// chinBtn.onclick = function(){
-//     res = Number(numb * 20)
-// }
-/*yaponBtn.onclick = function()
-    res = numb * 30
-}
-
-tenBtn.onclick = function(){
-    res = numb * 40
-}*/
