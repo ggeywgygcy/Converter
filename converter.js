@@ -8,53 +8,26 @@ const group = document.getElementById('group')
 
 
 dollBtn.onclick = function(res){
-    res = val.value * 88,21
+    res = val.value * 88.21
     group.textContent = res
     // group.insertAdjacentHTML('beforeend', vivodGruppi(res))
 
 }    
 chinBtn.onclick = function(res){
-    res = val.value * 12.04
+    res = val.value * 7.27
     group.textContent = res
 }    
 yaponBtn.onclick = function(res){
-    res = val.value * 0.562551
+    res = val.value * 159.84
     group.textContent = res
 }    
 tenBtn.onclick = function(res){
-    res = val.value * 0.19525
+    res = val.value * 463.85
     group.textContent = res
 }    
 euroBtn.onclick = function(res){
-    res = val.value * 94.83
+    res = val.value * 0.93475
     group.textContent = res
     // group.insertAdjacentHTML('beforeend', vivodGruppi(res))
 
 }    
-
-
-/*// function vivodGruppi(group){
-//     return `<ul class="list-group">
-//         <li id="group" class="list-group-item">${group}</li>
-//      </ul>`
-// }*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
